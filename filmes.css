@@ -1,0 +1,42 @@
+.img{
+    display: flex;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px;
+    color: #FFF;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #900;
+}
+
+h1{
+   color: #ff0000;
+}
